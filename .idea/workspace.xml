@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="198d4d44-67d5-4831-8bf6-33d55e6e3f01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/mu-plugins/installatron_hide_status_test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1-1024x696.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1-1536x1044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1-1568x1066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1-300x204.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1-768x522.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-2-1018x1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-2-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-2-199x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-2-679x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-2-768x1159.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-3-1018x1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-3-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-3-199x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-3-679x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-3-768x1159.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-4-1018x1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-4-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-4-199x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-4-679x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-4-768x1159.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-5-1018x1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-5-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-5-199x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-5-679x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-5-768x1159.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6-1024x696.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6-1536x1044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6-1568x1066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6-300x204.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6-768x522.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-7-1018x1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-7-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-7-199x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-7-679x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-7-768x1159.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-8-1018x1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-8-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-8-199x300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-8-679x1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-8-768x1159.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/image-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/logo-300x100-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/03/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/2020-landscape-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2021/06/food-products.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="198d4d44-67d5-4831-8bf6-33d55e6e3f01" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +46,7 @@
       <updated>1622731285666</updated>
       <workItem from="1622731287075" duration="2644000" />
       <workItem from="1623145286590" duration="3481000" />
-      <workItem from="1625742786110" duration="1650000" />
+      <workItem from="1625742786110" duration="1919000" />
     </task>
     <servers />
   </component>
