@@ -266,18 +266,6 @@ Inter variable font. Usage:
 	src: url(./assets/fonts/inter/Inter-italic-var.woff2) format("woff2");
 }
 
-
-/* Accessibility Settings -------------------- */
-
-@media ( prefers-reduced-motion: reduce ) {
-
-	* {
-		animation-duration: 0s !important;
-		transition-duration: 0s !important;
-	}
-}
-
-
 /* -------------------------------------------------------------------------- */
 
 /*	2. Element Base
@@ -1342,12 +1330,6 @@ ul.social-icons li {
 
 /*	4.	Site Header
 /* -------------------------------------------------------------------------- */
-
-
-#site-header {
-	background: #fff;
-	position: relative;
-}
 
 .header-inner {
 	max-width: 168rem;

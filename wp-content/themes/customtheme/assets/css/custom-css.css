@@ -1,0 +1,98 @@
+/* general css */
+.centered {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+#site-header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#site-content {
+    padding-top: 80px;
+}
+
+/* removes menu from desktop view */
+.toggle-wrapper:nth-of-type(odd) {
+    display: none;
+}
+
+/* front page blocks of text */
+.block-container {
+    max-width: 100%;
+    /*overflow: hidden;*/
+}
+
+.block {
+    margin: 10px 0;
+    text-align: center;
+    transform: translateX(-200%);
+    transition: transform 0.8s ease;
+}
+
+.block:nth-of-type(even) {
+    transform: translateX(200%);
+}
+
+.block.show {
+    transform: translateX(0);
+}
+
+.block img {
+    max-width: 100%;
+    box-shadow: 2px 2px 5px darkslategrey;
+}
+
+.block .button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* pulse buttons with expanding circle of color */
+.pulse {
+    position: relative;
+    overflow: hidden;
+}
+
+.pulse a {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+}
+
+.pulse span {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: cadetblue;
+    border-radius: 100px;
+
+    height: 0px;
+    width: 0px;
+    transition: 1s ease;
+}
+
+.pulse.active span {
+    height: 18rem;
+    width: 18rem;
+}
+
+.pulse.active.large span {
+    height: 60rem;
+    width: 60rem;
+}
+
+@media(max-width: 768px) {
+    .toggle-wrapper:nth-of-type(odd) {
+        display: block;
+    }
+}

@@ -7866,3 +7866,32 @@ function is_php_version_compatible( $required ) {
 function wp_fuzzy_number_match( $expected, $actual, $precision = 1 ) {
 	return abs( (float) $expected - (float) $actual ) <= $precision;
 }
+
+/**
+ * Enqueue additional stylesheets
+ */
+function additional_stylesheets() {
+    wp_enqueue_style( 'bootstrap-css', 'https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css' );
+    wp_enqueue_style( 'custom-css', get_template_directory_uri().'/assets/css/custom-css.css' );
+}
+add_action( 'wp_enqueue_scripts', 'additional_stylesheets' );
+
+/**
+ * Enqueue bootstrap dependencies
+ */
+function additional_scripts() {
+    wp_enqueue_script( 'jQuery_js', 'https://code.jquery.com/jquery-3.2.1.slim.min.js');
+    wp_enqueue_script( 'popper_js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js');
+    wp_enqueue_script( 'bootstrap_js', 'https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.min.js');
+    wp_enqueue_script( 'custom-js', get_template_directory_uri().'/assets/js/custom-js.js' );
+}
+add_action( 'wp_enqueue_scripts', 'additional_scripts');
+
+/**
+ * Remove empty paragraph tags from content
+ */
+add_filter('the_content', 'remove_empty_p', 20, 1);
+function remove_empty_p($content){
+    $content = force_balance_tags($content);
+    return preg_replace('#<p>\s*+(<br\s*/*>)?\s*</p>#i', '', $content);
+}
