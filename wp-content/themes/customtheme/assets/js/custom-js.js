@@ -1,9 +1,9 @@
-window.addEventListener('scroll', getBlocks);
+window.addEventListener('scroll', showBlocks);
 window.addEventListener('scroll', pulse);
 
-getBlocks();
+showBlocks();
 
-function getBlocks() {
+function showBlocks() {
     const blocks = document.querySelectorAll('.block');
 
     const triggerBottom = window.innerHeight * 0.8;

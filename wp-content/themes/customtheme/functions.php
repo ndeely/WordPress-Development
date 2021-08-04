@@ -390,42 +390,6 @@ function twentytwenty_sidebar_registration() {
 add_action( 'widgets_init', 'twentytwenty_sidebar_registration' );
 
 /**
- * Enqueue supplemental block editor styles.
- */
-function twentytwenty_block_editor_styles() {
-
-	// Enqueue the editor styles.
-	wp_enqueue_style( 'twentytwenty-block-editor-styles', get_theme_file_uri( '/assets/css/editor-style-block.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
-	wp_style_add_data( 'twentytwenty-block-editor-styles', 'rtl', 'replace' );
-
-	// Add inline style from the Customizer.
-	wp_add_inline_style( 'twentytwenty-block-editor-styles', twentytwenty_get_customizer_css( 'block-editor' ) );
-
-	// Add inline style for non-latin fonts.
-	wp_add_inline_style( 'twentytwenty-block-editor-styles', TwentyTwenty_Non_Latin_Languages::get_non_latin_css( 'block-editor' ) );
-
-	// Enqueue the editor script.
-	wp_enqueue_script( 'twentytwenty-block-editor-script', get_theme_file_uri( '/assets/js/editor-script-block.js' ), array( 'wp-blocks', 'wp-dom' ), wp_get_theme()->get( 'Version' ), true );
-}
-
-add_action( 'enqueue_block_editor_assets', 'twentytwenty_block_editor_styles', 1, 1 );
-
-/**
- * Enqueue classic editor styles.
- */
-function twentytwenty_classic_editor_styles() {
-
-	$classic_editor_styles = array(
-		'/assets/css/editor-style-classic.css',
-	);
-
-	add_editor_style( $classic_editor_styles );
-
-}
-
-add_action( 'init', 'twentytwenty_classic_editor_styles' );
-
-/**
  * Output Customizer settings in the classic editor.
  * Adds styles to the head of the TinyMCE iframe. Kudos to @Otto42 for the original solution.
  *
